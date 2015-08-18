@@ -1,0 +1,20 @@
+{
+  "name": "stencil",
+  "version": "0.0.5",
+  "main": "index.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "homepage": "https://github.com/bigeasy/stencil",
+  "_release": "0.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.5",
+    "commit": "8c741a6ad8d0b830aac9273220c47c783a018a86"
+  },
+  "_source": "git://github.com/bigeasy/stencil.git",
+  "_target": "~0.0.5",
+  "_originalSource": "stencil"
+}
