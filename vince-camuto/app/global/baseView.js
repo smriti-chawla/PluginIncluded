@@ -7,9 +7,10 @@ define([
     'settings',
     'global/includes/header/context',
     'global/includes/footer/context',
+    'global/includes/nav/context',
     'dust!global/base',
 ],
-function($, ResizeImages, Descript, Utils, Defaults, Settings, header, footer, baseTemplate) {
+function($, ResizeImages, Descript, Utils, Defaults, Settings, header, footer, nav, baseTemplate) {
     var descript;
 
     /**
@@ -40,7 +41,8 @@ function($, ResizeImages, Descript, Utils, Defaults, Settings, header, footer, b
         template: baseTemplate,
         includes: {
             header: header,
-            footer: footer
+            footer: footer,
+            nav: nav
         },
         /**
         * preProcess receives a context as a paramater and should return

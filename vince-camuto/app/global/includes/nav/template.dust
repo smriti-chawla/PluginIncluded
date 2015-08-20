@@ -1,0 +1,36 @@
+{#nav}
+    <div class="t-nav">
+        <div class="c-search-wrapper clrfix">
+            <div class="m-pikabu-overlay c-closeNav" data-role="left"></div>
+            <!-- adding header ID for search suggestion function -->
+            <div id="header" class="c-search">
+                <div class="header-search">{headerSearch}</div>
+            </div>
+        </div>
+        <div class="c-nav-list">
+            <div class="bellows c-nav-bellows">
+                {#menuCategory}
+                    <div class="bellows__item bellows-level1__item">
+                        <div class="bellows__header bellows-level1__header clrfix">
+                            {navHeading}
+                            <span class="c-bellowsImage"></span>
+                        </div>
+                        <div class="bellows__content">
+                            {#subItems}
+                                <div class="c-subItem">
+                                    {subItemHeading}
+                                </div>
+                            {/subItems}
+                        </div>
+                    </div>
+                {/menuCategory}
+            </div>
+        </div>
+        <div class="c-subNavigation">
+            {subNavigation}
+        </div>
+        <div class="c-account-Dropdown">
+            {accountDropdown}
+        </div>
+    </div>
+{/nav}

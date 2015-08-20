@@ -12,6 +12,7 @@
     "pikabu": "~0.2.2",
     "stencil": "~0.0.5",
     "bellows": "~5.1.2",
-    "velocity": "~1.2.2"
+    "velocity": "~1.2.2",
+    "pinny": "~2.0.2"
   }
 }

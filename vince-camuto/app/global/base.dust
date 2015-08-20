@@ -34,6 +34,7 @@
         <div class="m-pikabu-sidebar m-pikabu-left">
             <!-- left sidebar content -->
             <h2>Left Sidebar Content</h2>
+            {>"global/includes/nav/template"/}
         </div>
         <div class="m-pikabu-container">
             <div class="m-pikabu-overlay"></div>
